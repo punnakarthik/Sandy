@@ -16,7 +16,7 @@ public class HMRTest {
    WebDriver bo;
    String bpath="http://apps.qaplanet.in/qahrm/login.php";
 	
-	
+	//sandy yamini prammi
 	@Test
   public void Tc_1() {
 		bo.findElement(By.xpath("//input[@name='txtUserName']")).sendKeys("qaplanet1");
